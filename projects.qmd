@@ -1,3 +1,96 @@
 ---
 title: "Projects"
 ---
+
+Feel free to [contact me](mailto:leo.kestel@lmu.de) if you are interested in any of my projects!
+
+::: {.panel-tabset}
+## Academic
+
+::: {.callout collapse="true"}
+### Neurosymbolic Algorithmic Fairness
+
+* Bio
+* [Pitchdeck](TODO)
+
+::: {.panel-tabset}
+#### Publications
+* [Neurosymbolic Counterfactual Fairness](publications.qmd#nesy-cof)
+* [Neurosymbolic Architcetures for Algorithmic Fairness](publications.qmd#nesy-af)
+
+<!-- #### Grants
+* AI.Bay? -->
+
+:::
+
+:::
+
+
+::: {.callout collapse="true"}
+### ADA
+
+Data enables us to make better decisions. Procedures and processes can be automated and simplified. Data helps to reflect reality and thus develop tailor-made, evidence-based solutions. However, public administration often lacks the know-how to collect, understand, and make optimal use of the necessary data.
+
+**ADA** (**A**pplied **D**ata **A**nalytics for the Public Administration) brings together administrative and scientific data expertise to understand problems and find pragmatic solutions. The main goal is to empower public administration employees to use their data efficiently and responsibly.
+
+* [Website](https://ada-oeffentliche-verwaltung.de)
+* [Pitchdeck](TODO)
+
+::: {.panel-tabset}
+#### GDA
+* [Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/gda/)
+* [GitHub Repo](https://github.com/ada-bayern/Stichprobenziehung)
+
+#### Nationalpark
+[Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/nationalpark/)
+
+#### StMAS
+[Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/stmas/)
+<!-- [GitHub Repo](https://github.com/ada-bayern/) -->
+
+#### LfL
+[Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/lfl/)
+:::
+
+:::
+
+
+::: {.callout collapse="true"}
+### LMU
+
+::: {.panel-tabset}
+#### DataFest 2025
+<!-- [Mehr zum Projekt](https://datafest.de) -->
+:::
+
+:::
+
+
+<!-- ::: {.callout collapse="true"}
+### Uni Bamberg
+
+::: {.panel-tabset}
+#### Masterarbeit
+[Download](TODO)
+:::
+
+::: -->
+
+
+## Cultural
+
+::: {.callout collapse="true"}
+### Schlossallee
+[Büro Grandezza e.V.](https://buero-grandezza.de)
+
+::: {.panel-tabset}
+#### opaque
+[Mehr zum Projekt](https://buero-grandezza.de/opaque-music)
+
+#### ÜberLOS
+[Mehr zum Projekt](https://buero-grandezza.de/practice-projects/los-sommerbar-m3geb)
+:::
+
+:::
+
+:::

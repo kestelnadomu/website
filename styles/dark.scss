@@ -1,0 +1,99 @@
+/*-- scss:defaults --*/
+
+// fonts
+//$font-family-sans-serif: "Palatino Linotype", "Book Antiqua", Palatino,
+  //FreeSerif, serif !default;
+
+$font-family-monospace: "Courier New", Courier, monospace !default;
+
+// constants
+$bg: #000030 !default;
+$fg: #f0f1eb !default;
+$primary: #fea411 !default;
+$secondary: #00883a !default;
+
+// logos
+$soda: "img/Logo_SODA.svg" !default;
+$lmu: "img/LMU_Logo_RGB_InvertiertWeiss.png" !default;
+$mcml: "img/MCML_Logo_RGB_white.png" !default;
+
+// colors
+$body-bg: $bg !default;
+$body-color: $fg !default;
+$link-color: $primary !default;
+$callout-colot-note: $primary !default;
+
+$navbar-bg: $bg !default;
+$navbar-fg: $primary !default;
+$navbar-hl: $secondary !default;
+$footer-fg: $primary !default;
+$footer-hl: $secondary !default;
+
+/*-- scss:rules --*/
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-monospace;
+  font-weight: normal;
+  color: $fg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-monospace;
+  font-weight: normal;
+  color: $primary;
+}
+
+
+/* ==============================
+   EMPHASIS — COLOR ONLY, NO BOLD
+   ============================== */
+
+strong, b {
+  font-weight: normal;
+  color: $primary;
+}
+
+em {
+  font-style: normal;
+  color: $primary;
+}
+
+
+/* ==============================
+   QUARTO ELEMENT TUNING
+   ============================== */
+
+code, pre {
+  font-family: "Courier New", Courier, monospace;
+  color: $fg;
+  background-color: transparent;
+}
+
+blockquote {
+  border-left: 3px solid $primary;
+  padding-left: 1rem;
+  color: $fg;
+}
+
+th, td {
+  border: 1px solid $primary;
+  padding: 0.4rem;
+}
+
+
+img.mcml {
+  content: url(#{ $mcml });
+}
+img.lmu {
+  content: url(#{ $lmu });
+}
+img.soda {
+  content: url(#{ $soda });
+}
+
+.nav-tabs .nav-link {
+  color: $primary;   /* inactive tab text */
+}
+
+.nav-tabs .nav-link.active {
+  color: $secondary;  /* active tab text */
+}

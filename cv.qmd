@@ -1,3 +1,17 @@
 ---
 title: "Curriculum Vitae"
 ---
+
+::: {.panel-tabset}
+## Education
+
+## Research Experience
+
+## Work Experience
+
+## Social Volunteering
+
+## Tools
+
+## Teaching
+:::

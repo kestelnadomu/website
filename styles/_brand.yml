@@ -1,0 +1,91 @@
+# ==============================
+# BRAND DEFINITIONS — QUARTO
+# ==============================
+meta: 
+  name: "Leo Kestel"
+
+logo:
+  images: 
+    lmu-dark:
+      path: "img/LMU_Logo_RGB_FlaechigGuen.png"
+      alt: "LMU Logo"
+    lmu-light:
+      path: "images/lmu-logo-white-green.png"
+      alt: "LMU Logo"
+    mcml-light:
+      path: "img/MCML_Logo_RGB_black.png"
+      alt: "MCML Logo"
+    mcml-dark:
+      path: "img/MCML_Logo_RGB_white.png"
+      alt: "MCML Logo"
+    soda:
+      path: "img/Logo_SODA.svg"
+      alt: "SODA Logo"
+
+# ==============================
+# COLOR SYSTEM
+# ==============================
+
+color: 
+  palette: 
+    lmugreen: "#00883a"
+    mustard: "#fea411"
+    darkblue: "#000030"
+    eggshell: "#f0f1eb"
+    mediumgray: "#707070"
+  background: eggshell
+  foreground: darkblue
+  primary: darkblue
+  secondary: lmugreen
+  tertiary: mustard
+  success: lmugreen
+  info: mustard
+  warning: "#ff0000"
+  danger: "#990000"
+  light: eggshell
+  dark: darkblue
+
+# ==============================
+# TYPOGRAPHY
+# ==============================
+
+typography:
+  base:
+    family: Courier New
+  headings:
+    family: Courier New
+    color: primary
+    weight: normal
+  monospace:
+    family: Courier New
+  link: 
+    color: primary
+
+# ==============================
+# DEFAULTS
+# ==============================
+
+defaults:
+  quarto:
+    website:
+      reader-mode: true
+      search: true
+      page-footer:
+        left: "© 2025 Leonhard Kestel"
+        right: |
+          Built with [Quarto](https://quarto.org)
+
+    format:
+      html:
+        code-fold: true
+        code-copy: true
+        code-line-numbers: true
+        number-sections: false
+        toc-location: right
+        toc-depth: 3
+        theme:
+          dark: [cosmo, brand]
+          light: [cosmo, brand]
+
+    revealjs:
+    

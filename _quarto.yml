@@ -3,22 +3,32 @@ project:
 
 website:
   title: "Leo Kestel"
+  reader-mode: false # not necessary at the moment
+  search: true
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      # - href: index.qmd
+      #   text: Home
       - projects.qmd
       - publications.qmd
-      - teaching.qmd
-      - cv.qmd
+      # - teaching.qmd
+      - href: cv.qmd
+        text: CV
+
+  page-footer:
+    left: "© 2025 Leonhard Kestel"
+    right: |
+      Built with [Quarto](https://quarto.org)
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
+      dark: [cosmo, styles/brand-dark, styles/dark.scss]
+      light: [cosmo, styles/brand, styles/light.scss]
     toc: true
+    citations-hover: false
+    footnotes-hover: false
+    crossrefs-hover: false
 
 
 

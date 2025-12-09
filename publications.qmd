@@ -1,3 +1,18 @@
 ---
 title: "Publications"
 ---
+
+::: {.panel-tabset}
+## Papers
+
+::: {.callout collapse="true"}
+### Neurosymbolic Counterfactual Fairness {#nesy-cof}
+dvbsichbasxh
+:::
+
+::: {.callout collapse="true"}
+### Neurosymbolic Architcetures for Algorithmic Fairness {#nesy-af}
+:::
+
+## Presentations
+:::
