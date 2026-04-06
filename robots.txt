@@ -1,1 +1,1 @@
-Sitemap: https://kestelnadomu.github.io/website/sitemap.xml
+Sitemap: https://kestelnadomu.github.io/sitemap.xml
