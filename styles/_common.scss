@@ -1,0 +1,191 @@
+/*-- scss:defaults --*/
+
+// $themes: (
+//   dark: (
+//     bg: #000030,
+//     fg: #f0f1eb,
+//     primary: #fea411,
+//     secondary: #00883a,
+//     soda: "img/Logo_SODA.svg",
+//     lmu: "img/LMU_Logo_RGB_InvertiertWeiss.png",
+//     mcml: "img/MCML_Logo_RGB_white.png"
+//   ),
+//   light: (
+//     bg: #f0f1eb,
+//     fg: #000030,
+//     primary: #000030,
+//     secondary: #00883a,
+//     soda: "img/Logo_SODA.svg",
+//     lmu: "img/LMU_Logo_RGB_InvertiertSchwarz.png",
+//     mcml: "img/MCML_Logo_RGB_black.png"
+//   )
+// );
+
+// @function theme-get($key) {
+//   @return map-get(map-get($themes, $theme), $key);
+// }
+
+// $bg: theme-get(bg) !default;
+// $fg: theme-get(fg) !default;
+// $primary: theme-get(primary) !default;
+// $secondary: theme-get(secondary) !default;
+// $soda: theme-get(soda) !default;
+// $lmu: theme-get(lmu) !default;
+// $mcml: theme-get(mcml) !default;
+
+$font-family-monospace: "Courier New", Courier, monospace !default;
+
+// // constants
+// $bg: #000030 !default;
+// $fg: #f0f1eb !default;
+// $primary: #fea411 !default;
+// $secondary: #00883a !default;
+
+// // logos
+// $soda: "img/Logo_SODA.svg" !default;
+// $lmu: "img/LMU_Logo_RGB_InvertiertWeiss.png" !default;
+// $mcml: "img/MCML_Logo_RGB_white.png" !default;
+
+// colors
+$body-bg: $bg !default;
+$body-color: $fg !default;
+$link-color: $secondary !default;
+$callout-color: $fg !default;
+
+$navbar-bg: $bg !default;
+$navbar-fg: $primary !default;
+$navbar-hl: $secondary !default;
+$footer-fg: $primary !default;
+$footer-hl: $secondary !default;
+
+
+/*-- scss:rules --*/
+body, span, p, li, h1, h2, h3, h4, h5, h6, .callout {
+  font-family: $font-family-monospace;
+  font-weight: normal !important;
+}
+
+body {
+  color: $body-color !important;
+}
+
+.nav-tabs .nav-link {
+    color: $navbar-fg !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: $navbar-hl !important;
+}
+
+.callout {
+  color: $callout-color !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary !important;
+}
+
+.callout {
+  background-color: $body-bg !important;
+  border-bottom: 1px solid $body-color !important;
+  border-right: 1px solid $body-color !important;
+  border-top: 1px solid $body-color !important;
+}
+
+.tab-content {
+  background-color: $body-bg !important;
+  border: 1px solid $body-color !important;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: $body-bg !important;
+  border-left: 1px solid $body-color !important;
+  border-right: 1px solid $body-color !important;
+  border-top: 1px solid $body-color !important;
+}
+
+
+
+
+/* ==============================
+   QUARTO ELEMENT TUNING
+   ============================== */
+
+code, pre {
+  font-family: $font-family-monospace;
+  color: $fg;
+  background-color: transparent;
+}
+
+blockquote {
+  border-left: 3px solid $primary;
+  padding-left: 1rem;
+  color: $fg;
+}
+
+th, td {
+  border: 1px solid $primary;
+  padding: 0.4rem;
+}
+
+
+/* ==============================
+   CUSTOM ELEMENT STYLING
+   ============================== */
+
+img.mcml {
+  content: url(#{ $mcml });
+  height: 4em;
+  alt: "MCML";
+}
+img.lmu {
+  content: url(#{ $lmu });
+  height: 4em;
+  alt: "LMU";
+}
+img.soda {
+  content: url(#{ $soda });
+  height: 4em;
+  alt: "SODA";
+}
+img.ada {
+  content: url(#{ $ada });
+  height: 4em;
+  alt: "ADA";
+}
+// img.ondatix {
+//   content: url(#{ $ondatix });
+//   height: 4em;
+//   alt: "ondatix";
+// }
+
+
+/* ------------------------------
+   PRESENTATION-SPECIFIC STYLING
+   ------------------------------ */
+// .reveal .slides ol li::marker {
+//   color: $primary;
+//   font-weight: normal;  
+// }
+
+// #title-slide .title {
+//   font-size: 2em;
+// }
+// .subtitle {
+//   font-size: 1em;
+//   color: $primary;
+// }
+// #title-slide .quarto-title-author-email {
+//   color: $secondary;
+// }
+// #title-slide .quarto-title-author-name,
+// #title-slide .quarto-title-affiliation,
+// #title-slide .quarto-title-author-email {
+//   font-family: $font-family-monospace;
+// }
+
+// headings
+// $presentation-heading-font: $font-family-monospace !default;
+// $presentation-heading-color: $primary !default;
+// $presentation-heading-font-size: "4em" !default;
+// $presentation-heading-font-weight: "normal" !default;

@@ -10,7 +10,6 @@ website:
       # - href: index.qmd
       #   text: Home
       - projects.qmd
-      - publications.qmd
       # - teaching.qmd
       - href: cv.qmd
         text: CV
@@ -23,12 +22,14 @@ website:
 format:
   html:
     theme:
-      dark: [cosmo, styles/brand-dark, styles/dark.scss]
-      light: [cosmo, styles/brand, styles/light.scss]
+      dark: [cosmo, styles/dark.scss]
+      light: [cosmo, styles/light.scss]
     toc: true
     citations-hover: false
     footnotes-hover: false
     crossrefs-hover: false
+
+
 
 
 

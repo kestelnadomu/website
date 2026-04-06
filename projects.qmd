@@ -10,13 +10,45 @@ Feel free to [contact me](mailto:leo.kestel@lmu.de) if you are interested in any
 ::: {.callout collapse="true"}
 ### Neurosymbolic Algorithmic Fairness
 
-* Bio
-* [Pitchdeck](TODO)
+Bias is a pervasive issue in Machine Learning, particularly in domains like automated decision-making (ADM), where it can lead to unfair treatment of individuals or groups based on sensitive attributes. Accounting for it requires knowledge and reasoning about how bias can affect the decision process and how to constrain this process in order to decrease its vulnerability to societal and statistical bias. In the field of bias mitigation, a broad set of constraining techniques has been developed to address the issue of biased predictions. Usually, such a technique is an architecture or procedure particularly designed for a use case or a distinct definition of fairness. In application however, practitioners face complex realities requiring flexible, complex reasoning about constraints, yet the link to integrative approaches that combine symbolic reasoning with logical constraints and statistical learning is still missing. Although there exist several neurosymbolic architectures able to incorporate knowledge and constraints into a model, only few attempts have been made to use them to apply fairness constraints to model predictions. In my dissertation project, I try to bridge this gap by mapping neurosymbolic architectures to bias mitigation techniques.
+
+<!-- * [Pitchdeck](TODO) -->
 
 ::: {.panel-tabset}
 #### Publications
-* [Neurosymbolic Counterfactual Fairness](publications.qmd#nesy-cof)
-* [Neurosymbolic Architcetures for Algorithmic Fairness](publications.qmd#nesy-af)
+
+::: {.callout collapse="true"}
+##### Neurosymbolic Architcetures for Algorithmic Fairness
+Kestel, L., & Kern, C. (2026). *Neurosymbolic Architectures for Algorithmic Fairness*.
+
+[[Preprint](https://neurosymbolic-ai-journal.com/paper/neurosymbolic-architectures-algorithmic-fairness-0)][[Illustration](https://kestelnadomu.github.io/nesy_bimi_illustration/)]
+
+<!-- Citation:
+```{.bibtex}
+@article{kestel_nesybimi2026,
+  title={Neurosymbolic Architcetures for Algorithmic Fairness},
+  author={Kestel, Leonhard and Kern, Christoph},
+  year={2026}
+}
+``` -->
+:::
+
+::: {.callout collapse="true"}
+##### A Neurosymbolic Approach to Counterfactual Fairness
+Heilmann, X., Manganini, C., Cerrato, M., Kestel, L., & Belle, V. (2026). *A Neurosymbolic Approach to Counterfactual Fairness*.
+
+[[Preprint](https://neurosymbolic-ai-journal.com/paper/neurosymbolic-approach-counterfactual-fairness-0)]
+
+<!-- Citation:
+```{.bibtex}
+@article{heilmann_nesycf2026,
+  title={A Neurosymbolic Approach to Counterfactual Fairness},
+  author={Heilmann, Xenia and Manganini, Chiara and Cerrato, Mattia and Kestel, Leonhard and Belle, Vaishak},
+  year={2026}
+}
+``` -->
+:::
+
 
 <!-- #### Grants
 * AI.Bay? -->
@@ -29,41 +61,43 @@ Feel free to [contact me](mailto:leo.kestel@lmu.de) if you are interested in any
 ::: {.callout collapse="true"}
 ### ADA
 
-Data enables us to make better decisions. Procedures and processes can be automated and simplified. Data helps to reflect reality and thus develop tailor-made, evidence-based solutions. However, public administration often lacks the know-how to collect, understand, and make optimal use of the necessary data.
+Data enables us to make better decisions. Procedures and processes can be automated and simplified. Data helps to reflect reality and thus develop tailor-made, evidence-based solutions. However, public administration often lacks the know-how to collect, understand, and make optimal use of the necessary data. 
 
-**ADA** (**A**pplied **D**ata **A**nalytics for the Public Administration) brings together administrative and scientific data expertise to understand problems and find pragmatic solutions. The main goal is to empower public administration employees to use their data efficiently and responsibly.
+ADA (**A**pplied **D**ata **A**nalytics for the Public Administration) brings together administrative and scientific data expertise to understand problems and find pragmatic solutions. The main goal is to empower public administration employees to use their data efficiently and responsibly.
 
-* [Website](https://ada-oeffentliche-verwaltung.de)
-* [Pitchdeck](TODO)
+[[Website](https://ada-oeffentliche-verwaltung.de)]
+[[GitHub](https://github.com/ada-bayern)]
+<!-- [[HDSR Article](TODO)] -->
+ <!-- [Pitchdeck](TODO) -->
 
 ::: {.panel-tabset}
 #### GDA
-* [Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/gda/)
-* [GitHub Repo](https://github.com/ada-bayern/Stichprobenziehung)
+[[Project Page](https://ada-oeffentliche-verwaltung.de/projekte/gda/)]
+[[GitHub Repo](https://github.com/ada-bayern/Stichprobenziehung)]
 
 #### Nationalpark
-[Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/nationalpark/)
+[[Project Page](https://ada-oeffentliche-verwaltung.de/projekte/nationalpark/)]
 
 #### StMAS
-[Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/stmas/)
+[[Project Page](https://ada-oeffentliche-verwaltung.de/projekte/stmas/)]
 <!-- [GitHub Repo](https://github.com/ada-bayern/) -->
 
-#### LfL
-[Mehr zum Projekt](https://ada-oeffentliche-verwaltung.de/projekte/lfl/)
+<!-- #### LfL
+[[Project Page](https://ada-oeffentliche-verwaltung.de/projekte/lfl/)] -->
 :::
 
 :::
 
 
-::: {.callout collapse="true"}
+<!-- ::: {.callout collapse="true"}
 ### LMU
 
 ::: {.panel-tabset}
 #### DataFest 2025
-<!-- [Mehr zum Projekt](https://datafest.de) -->
+<!-- [About the project](https://datafest.de)
 :::
 
-:::
+::: -->
 
 
 <!-- ::: {.callout collapse="true"}
@@ -76,19 +110,35 @@ Data enables us to make better decisions. Procedures and processes can be automa
 
 ::: -->
 
+## Industry
+
+::: {.callout collapse="false"}
+### ondatix Datenwerkstatt
+The ondatix Datenwerkstatt is a data science consultancy and software company based in Munich. We help public servants to make better use of their data by providing data-driven solutions to their problems. My main focus is on the development of software solutions to support the administration to work more effectively, efficiently and trustworthy with data.
+
+[[Website](https://www.ondatix.de)]
+[[GitHub](https://github.com/ondatix)]
+:::
+
 
 ## Cultural
 
-::: {.callout collapse="true"}
-### Schlossallee
-[Büro Grandezza e.V.](https://buero-grandezza.de)
+::: {.callout collapse="false"}
+### Schlossallee by Büro Grandezza e.V.
+*Schlossallee* is a community art project by [Büro Grandezza e.V.](https://buero-grandezza.de) in Unterhaching, a suburb of Munich. It is a collaborative work space for artists from various disciplines. The project mainly aims to provide afforable space for creative work in the Munich area, but also to foster a creative community and to make art accessible to the public. I am involved in the project as a member of the board and as a volunteer. 
+
+[[Website](https://buero-grandezza.de)]
 
 ::: {.panel-tabset}
-#### opaque
-[Mehr zum Projekt](https://buero-grandezza.de/opaque-music)
+#### opaque music
+opaque music is a music collective by [Büro Grandezza e.V.](https://buero-grandezza.de).
+
+[[Project Page](https://buero-grandezza.de/opaque-music)]
 
 #### ÜberLOS
-[Mehr zum Projekt](https://buero-grandezza.de/practice-projects/los-sommerbar-m3geb)
+ÜberLOS is a recurring bar event at the Schlossallee, where we open the house for the public and invite local artists to perform.
+
+[[Project Page](https://buero-grandezza.de/practice-projects/los-sommerbar-m3geb)]
 :::
 
 :::
