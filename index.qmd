@@ -46,5 +46,7 @@ I am a member of the *ADA* initiative and a co-founder of *ondatix Datenwerkstat
 [<img class="ada">](https://www.ada-oeffentliche-verwaltung.de)
 <!-- [<img class="ondatix">](https://www.ondatix.de) -->
 
+:::
+
 
 
